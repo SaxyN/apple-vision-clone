@@ -1,12 +1,12 @@
-import { Typography, Avatar, IconButton } from "@mui/material";
+import Typography from "@mui/material/Typography";
+import Avatar from "@mui/material/Avatar";
+import IconButton from "@mui/material/IconButton";
 import "./AppStore.css";
 
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 
 import AvatarPic from "../../assets/Avatar.jpg";
 import ConstellationPic from "../../assets/constellation.png";
-// import SplatterApp from "../../assets/splatter.jpeg";
-// import BreadApp from "../../assets/bread.jpeg";
 
 import EditorChoiceTabs from "./Components/EditorChoiceTabs";
 import SpacePic from "../../assets/space.jpg";

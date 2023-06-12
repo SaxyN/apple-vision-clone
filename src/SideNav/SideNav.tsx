@@ -1,5 +1,6 @@
 import { styled } from "@mui/material/styles";
-import { IconButton, Tab, Tabs } from "@mui/material";
+import Tab from "@mui/material/Tab";
+import Tabs from "@mui/material/Tabs";
 
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 import BorderAllRoundedIcon from '@mui/icons-material/BorderAllRounded';
@@ -7,13 +8,11 @@ import OndemandVideoRoundedIcon from '@mui/icons-material/OndemandVideoRounded';
 import SensorsRoundedIcon from '@mui/icons-material/SensorsRounded';
 import LibraryMusicRoundedIcon from '@mui/icons-material/LibraryMusicRounded';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
-import { useState } from "react";
 
 import "./SideNav.css";
 
 const StyledTab = styled(Tab)({
     '&.MuiTab-root': {
-        // backgroundColor: 'gray',
         borderRadius: '150px',
         margin: '5px',
         padding: '5px',
@@ -39,7 +38,6 @@ const StyledTab = styled(Tab)({
     },
 
     '&.Mui-disabled': {
-        // background: 'linear-gradient(180deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2))',
         color: 'gray',
         transition: 'all 200ms'
     },

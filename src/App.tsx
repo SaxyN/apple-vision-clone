@@ -1,15 +1,4 @@
 import { ReactElement, useState } from 'react';
-import { Box, Slide } from '@mui/material';
-// import {
-//     IconButton,
-//     Typography,
-//     List,
-//     ListItemButton,
-//     ListItemIcon,
-//     Collapse,
-//     ListItem,
-//     Input,
-// } from '@mui/material'
 import './App.css'
 
 import SideNav from './SideNav/SideNav';

@@ -67,8 +67,6 @@ function AppleMusic({ }: AppleMusicProps) {
                         >
                             All Music
                         </Typography>
-                        {/* <h2>Library</h2> */}
-                        {/* <h4>All Music</h4> */}
                     </div>
                     <IconButton sx={{ color: 'white' }}><MoreHorizRoundedIcon sx={{ p: 0.5 }} /></IconButton>
                 </div>
@@ -330,9 +328,6 @@ function AppleMusic({ }: AppleMusicProps) {
                         >
                             254 Playlists
                         </Typography>
-                        {/* <h2>Library</h2> */}
-                        {/* <h4>All Music</h4> */}
-
                     </div>
                     <IconButton sx={{ color: 'white' }}><MoreHorizRoundedIcon sx={{ p: 0.5 }} /></IconButton>
                 </div>
@@ -427,9 +422,7 @@ function AppleMusic({ }: AppleMusicProps) {
                 {/* Album Cover, Song Name, Artist, + ... */}
                 <div className='ALMusicControlsSong'>
                     <div style={{ display: 'flex', alignItems: 'center' }}>
-                        {/* <div> */}
                         <img src={ContinuumPic} alt="" className='ALMusicControlsAlbum' style={{ borderRadius: '5px' }} />
-                        {/* </div> */}
                         <div style={{ textAlign: 'left', marginLeft: '7px', marginTop: '-3px' }}>
                             <Typography
                                 fontFamily={"Roboto"}

@@ -1,5 +1,7 @@
 import "./EditorChoiceTabs.css";
-import { Tabs, Tab, styled } from "@mui/material";
+import { styled } from "@mui/material/styles";
+import Tabs from "@mui/material/Tabs"
+import Tab from "@mui/material/Tab"
 
 const StyledTab = styled(Tab)({
     '&.MuiTab-root': {

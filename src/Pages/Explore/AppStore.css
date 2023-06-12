@@ -134,4 +134,6 @@
     box-sizing: border-box;
     backdrop-filter: blur(25px);
     overflow: hidden;
+    background: url('../../assets/polygon.jpeg');
+    background-size: cover;
 }
