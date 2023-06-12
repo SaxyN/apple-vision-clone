@@ -1,0 +1,13 @@
+.AppWrapper {
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.ALWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 30px;
+}

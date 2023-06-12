@@ -1,0 +1,137 @@
+.ASBacker {
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    position: relative;
+    padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+}
+
+.ASBacker::-webkit-scrollbar {
+    display: none;
+}
+
+.ASWrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    border-radius: 25px;
+}
+
+.ASWrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.ASAvatar {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    border-radius: 25px;
+    z-index: 2;
+}
+
+.ASTitleSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px 25px 15px 50px;
+    box-sizing: border-box;
+}
+
+.ASAccentTitle {
+    padding: 0px 0px 15px 0px;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.ASTitle {
+    text-align: left;
+    width: 220px;
+}
+
+.ASSubTitle {
+    text-align: left;
+    width: 240px;
+    padding: 5px 0px 0px 0px;
+}
+
+.ASPromotedApp {
+    width: 375px;
+    height: 90px;
+    margin: 15px 0px 75px 50px;
+    box-sizing: border-box;
+    box-shadow: -1px 1px 2px rgba(255, 255, 255, 0.3) inset;
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.ASPromotedAppIcon {
+    margin: 0px 10px 0px 15px;
+    width: 56;
+    height: 56;
+}
+
+.ASPromotedAppTitle {
+    text-align: left;
+}
+
+.ASPromotedAppButton {
+    margin: 0px 0px 0px 25px;
+}
+
+.AppButton {
+    border-radius: 25px;
+    padding: 7px 30px 7px 30px;
+    margin: 0px 0px 3px 0px;
+    border: none;
+    cursor: pointer;
+    transition: all 150ms;
+    backdrop-filter: blue(10px);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.AppButton:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.AppButton:active {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.ASAppSlider {
+    padding: 0px 0px 0px 0px;
+}
+
+.ASAppSliderTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    margin: 0px 0px 10px 25px;
+}
+
+.ASAppSliderApps {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    overflow-x: scroll;
+    gap: 25px;
+    padding: 0px 0px 25px 25px;
+}
+
+.ASAppSliderApps::-webkit-scrollbar {
+    display: none;
+}
+
+.ASAppSliderApp {
+    height: 175px;
+    min-width: 300px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    backdrop-filter: blur(25px);
+    overflow: hidden;
+}

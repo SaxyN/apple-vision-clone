@@ -1,0 +1,166 @@
+.ALDetachedNav {
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(50px);
+    border-radius: 50px;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3) inset;
+    position: absolute;
+    left: -85px;
+    top: 25%;
+    padding: 5px;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.AMainWindow {
+    height: 700px;
+    width: 1190px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+    box-shadow: -1px 1px 0px 0px rgba(255, 255, 255, 0.2) inset;
+    transition: opacity 1s;
+}
+
+.ALMainWindowLeftMenu {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 25%;
+    backdrop-filter: blur(50px);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    text-align: left;
+    padding: 10px 15px 10px 15px;
+    box-sizing: border-box;
+    font-family: Roboto;
+    position: relative;
+}
+
+.ALMainWindowLeftPlaylists {
+    overflow: scroll;
+    height: calc(73% - 1px);
+}
+
+.ALMainWindowLeftPlaylists::-webkit-scrollbar {
+    display: none;
+}
+
+.ALMainWindowLeftMenuUpper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    height: 10%;
+}
+
+.ALMainWindowLeftMenuUpperText {
+    padding: 10px 10px 5px 10px;
+}
+
+.ALMainWindowRightMenuUpper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    height: 11%;
+}
+
+.ALMainWindowRightMenuUpperText {
+    padding: 10px 10px 5px 10px;
+}
+
+.ALMainWIndowLeftMenuList {
+    display: flex;
+    flex-direction: column;
+}
+
+.ALMainWindowRightContent {
+    background-color: rgba(255, 255, 255, 0.15);
+    width: 75%;
+    backdrop-filter: blur(50px);
+    padding: 10px 15px 10px 15px;
+    box-sizing: border-box;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: relative;
+}
+
+.ALMusicControls {
+    justify-content: space-evenly;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4) inset;
+    backdrop-filter: blur(50px);
+    position: absolute;
+    bottom: -30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    width: 60%;
+    height: 65px;
+    padding: 0px 15px 0px 15px;
+    left: 20%;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: 2;
+}
+
+.ALMusicControlsSong {
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-height: 48px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.ALMusicControlsAlbum {
+    height: 36px;
+    width: 36px;
+}
+
+.ALMainWindowRightContentSearch {
+    cursor: text;
+    width: calc(100% - 15px);
+    height: 6%;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 0px 15px 0px 15px;
+    margin: 0px 0px 0px 0px;
+    color: white;
+    box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.4) inset;
+    font-family: 'Montserrat';
+}
+
+.ALMainWindowRightContentGrid {
+    padding: 25px 10px 40px 10px;
+    display: grid;
+    height: calc(83% - 55px);
+    justify-content: space-evenly;
+    max-width: calc(100% - 10px);
+    gap: 38px;
+    grid-template-columns: repeat(4, 180px);
+    overflow: scroll;
+}
+
+.ALMainWindowRightContentGrid::-webkit-scrollbar {
+    display: none;
+}
+
+.ALAlbum {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+}
+
+.ALAlbumImg {
+    height: 180px;
+    width: 180px;
+    border-radius: 10px;
+}
